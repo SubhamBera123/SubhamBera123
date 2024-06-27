@@ -42,7 +42,6 @@ public class GuessingGame {
             System.out.print("Do you want to play again? (yes/no): ");
             String response = scanner.next();
             playAgain = response.equalsIgnoreCase("yes");
-
             if (!playAgain) {
                 System.out.println("Thank you for playing! Your final score is: " + score);
             }
